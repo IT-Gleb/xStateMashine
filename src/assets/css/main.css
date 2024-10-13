@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-slate-950 overflow-x-hidden min-w-[300px] flex flex-col;
+  }
+  /* body {
+    background: radial-gradient(
+        closest-corner at 75% 50%,
+        rgb(255, 151, 54) 0%,
+        rgba(142, 51, 69, 0) 100%
+      ),
+      radial-gradient(
+        circle at 20% 20%,
+        rgb(255, 151, 54) 0%,
+        rgba(142, 51, 69, 0) 100%
+      ),
+      #000;
+  } */
+}
+
+@layer utilities {
+  html,
+  body {
+    @apply accent-black;
+  }
+}
