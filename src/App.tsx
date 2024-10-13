@@ -1,4 +1,5 @@
 import "./assets/css/main.css";
+import { FooterComponent } from "./components/footerComponent";
 import { ProductsComponent } from "./components/productsComponent";
 // import { ToggleComponent } from "./components/toggleComponent";
 
@@ -12,6 +13,7 @@ function App() {
       </section>
       {/* <ToggleComponent /> */}
       <ProductsComponent />
+      <FooterComponent />
     </>
   );
 }
